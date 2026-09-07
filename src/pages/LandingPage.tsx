@@ -6,7 +6,6 @@ import { Button } from '../components/Button'
 import { Container } from '../components/Container'
 import { 
   Shield, 
-  CheckCircle2, 
   Clock, 
   Lock, 
   FileSignature, 

@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { PublicHeader } from '../components/PublicHeader'
 import { PublicFooter } from '../components/PublicFooter'
@@ -20,7 +19,6 @@ interface Plan {
 }
 
 export function PricingPage() {
-  const { t } = useTranslation()
   const [isAnnual, setIsAnnual] = useState(true)
 
   const plans: Plan[] = [

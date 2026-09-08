@@ -41,9 +41,17 @@ sigra-web (React)
 ## Getting Started
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
+
+## Dependency policy
+
+- Installs use `npm ci` (lockfile-first); never delete `package-lock.json` to
+  "fix" an install.
+- New or bumped dependencies are pinned to exact versions (no `^`/`~`).
+- 7-day release-age cooldown for any bump: never adopt a release younger than
+  7 days without a stated reason.
 
 ### Environment Variables
 
